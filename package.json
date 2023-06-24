@@ -1,0 +1,33 @@
+{
+  "name": "tikobs",
+  "version": "1.0.0",
+  "description": "Aplicación web que permite gestionar de una manera controlada y eficaz servicios tecnológicos.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesnoa/Tikobs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesnoa/Tikobs/issues"
+  },
+  "homepage": "https://github.com/jamesnoa/Tikobs#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.43.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8"
+  }
+}
